@@ -1,0 +1,328 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6,nav,div,section,a,p,ul,ol,li,span,header,footer,img{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+}
+
+
+/*  header part in css start */
+   .navbar-brand{
+    margin: 10px 0;
+    position: relative;
+   }
+    .navbar-brand1{
+        font-size: 30px;
+        font-weight: 700;
+        padding-left: 15px;
+        color: #2d3950;
+        position: absolute;
+        top:3px;
+    }
+    .navbar-nav .nav-item{
+       padding-left: 30px;
+    }
+    .navbar-nav .nav-item .nav-link{
+        font-size: 24px;
+        font-weight: 400;
+    }
+/*  header part in css end */
+
+
+
+/* banner part in css start */
+   .banner{
+    background-image: url(../image/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   }
+
+   .banner_contain{
+     padding-top: 220px;
+     padding-bottom: 85px;
+   }
+
+   .banner_title{
+    font-size: 120px;
+    font-weight: 700;
+    color: #ffffff;
+   }
+
+   .line_main{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+   }
+
+   .line{
+    width: 600px;
+    border:2.5px solid #15a4fa ;
+   }
+
+   .banner_subtitle{
+    font-size: 20px;
+    color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 65px;
+   }
+   .button{
+    width: 176px;
+    height: 55px;
+    border: 1px solid #15a4fa;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .button a{
+      font-size: 18px;
+      color: #ffffff;
+   }
+   .icon{
+     font-size: 35px;
+     color: #ffffff;
+     padding-top: 175px;
+   }
+/* banner part in css end */
+
+/* design part in css start */
+    .design_main{
+        background-color: #f6f9f9;
+    }
+    .d_h_contain{
+        padding-top: 80px;
+        padding-bottom: 110px;
+    }
+    .d-h-title{
+        font-size: 40px;
+        font-weight: 400;
+        color: #2d3950;
+    }
+   .d-h-text{
+    font-size: 20px;
+    font-weight: 400;
+    color: #999999;
+    padding-top: 35px;
+   }
+
+   .design{
+       margin: 65px 0;
+   }
+   .design_blue{
+    width: 100px;
+    height: 100px;
+    background-color: #5fc3ff;
+    position: relative;
+   }
+
+   .design_sky{  
+    width: 50px;
+    height: 100px;
+    background-color: #48baff;
+   }
+
+   .d-icon{
+    font-size: 60px;
+    color: #ffffff;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+   }
+
+   .d-icon1{
+    font-size: 60px;
+    color: #ffffff;
+    position: absolute;
+    top: 25px;
+    left: 35px;
+   }
+
+   .d-title{
+    font-size: 22px;
+    font-weight: 400;
+    color: #2d3950;
+    margin-top: 20px;
+   }
+
+   .d-text{
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    margin-top: 25px;
+   }
+/* design part in css end */
+
+/* work part in css start */
+.work_main{
+    background-color: #f6f9f9;
+    margin-bottom: 115px;
+}
+
+.h_work{
+    padding: 80px 0;
+}
+
+.w-title{
+    font-size: 41px;
+    font-weight: 400;
+    color: #2d3950;
+}
+
+.w-text{
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    padding-top: 20px;
+}
+.gallary{
+    position: relative;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(35,164,243,0.8); 
+    position: absolute;
+    transform: scale(0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all linear .3s;
+    
+}
+
+.fonticon{
+    padding: 20px 20px;
+    margin: 0 10px;
+    border: 1px solid #ffffff;
+    background-color: rgba(35,164,243,0.8); 
+    display: none;
+    transition: all linear .3s;
+}
+.gallary:hover .fonticon{
+    display: flex;
+    transition: all linear .3s;
+}
+.gallary:hover .overlay{
+  transform: scale(1);
+  transition: all cubic-bezier(0,.98,1,-0.01) .3s;
+}
+/* work part in css end */
+
+
+/* footer part ion css start */
+
+
+.f_main{
+    background-image: url(../image/foterback.jpg);
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.f_overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(45,55,75,0.9);
+    position: absolute;
+    top: 0;
+}
+.f_contain{
+   text-align: center;
+}
+.f_title{
+    font-size: 41px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-top: 72px;
+}
+.f_text{
+    font-size:15px;
+    font-weight: 400;
+    color: #8d8e90;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+.fot_form{
+    width: 555px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    background-color: transparent;
+    border: 1px solid #999999;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.fot_form2{
+    width: 555px;
+    height: 160px;
+    border-radius: 10px;
+    border: none;
+    background-color: transparent;
+    border: 1px solid #999999;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 120px;
+}
+
+
+.f_btn{
+  width: 140px;
+  height: 45px;
+  border: none;
+  background: transparent;
+  border: 1px solid #15a4fa;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-left: 250px;
+}
+
+::placeholder{
+    color: #999999;
+}
+#mycheckbox{
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.f_copy{
+    width: 100%;
+    height: 90px;
+    background-color: #f6f9f9;
+}
+
+.c_title{
+    font-size: 15px;
+    color: #999999;
+}
+
+.f_c_contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 90px;
+}
+
+.f_c_icon{
+    font-size: 15px;
+    padding: 8px 8px;
+    background-color: #15a4fa;
+    color: #ffffff;   
+}
+
+/* footer part ion css end */
